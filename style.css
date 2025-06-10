@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Miriam Libre';
+}
+
+h1{
+    font-size: 30px;
+}
+
+.sumario {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    color: #eee;
+    padding: 3.5em 0px;
+    font-size: 18px;
+}
+
+#menos {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.sumario p {
+    color: #eee;
+    line-height: 1.3em;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.sumario .orga {
+    padding: 0.5em 0px;
+    margin-bottom: 2em;
+}
+
+.sumario .orga a {
+    color: #eee;
+    text-decoration: none;
+}
+
+#quebra {
+    padding: 0 20%;
+}
+
+hr {
+    margin: 2em 0;
+    border: dotted;
+    border-width: 1px 0 0;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #1e7a1e;
+    padding: 1px 0.3em;
+    border-radius: 2px;
+}
+
+a:hover {
+    color: white;
+    background-color: #1e7a1e;
+}
+
+a:visited {
+    line-height: inherit;
+}
+
+.cabeca {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mylinks {
+    margin: 0.3em 0;
+}
+
+#gp{
+    margin-bottom: 5px;
+}
